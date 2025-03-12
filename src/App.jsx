@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, getDocs, deleteDoc, doc, updateDoc } from 'firebase/firestore';
-import './App.css';
+
 const firebaseConfig = {
   apiKey: "AIzaSyBZQWzFE0j1rRqLO2EaVtIQtqs86fLmKWc",
   authDomain: "girl-tracker-for-aru-1f210.firebaseapp.com",
